@@ -1,0 +1,11 @@
+@import "./../style/dark.module.scss";
+@import "./../style/light.module.scss";
+.tableMini{
+    position: relative;
+    margin-top: 15px;
+    width: 250px;
+    padding: 10px;
+    .name{
+        margin-bottom: 15px;
+    }
+}

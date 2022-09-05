@@ -1,0 +1,24 @@
+@import "./../style/dark.module.scss";
+.info{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: $bColorHover;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    .content{
+        overflow-y: scroll;
+        min-width: 350px;
+        p{
+            text-align: center;
+            font-size: 135%;
+        }
+        .vid{
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}

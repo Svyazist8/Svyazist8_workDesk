@@ -1,0 +1,9 @@
+@import "./../style/dark.module.scss";
+@import "./../style/light.module.scss";
+
+.btn{
+    margin: 25px auto;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}

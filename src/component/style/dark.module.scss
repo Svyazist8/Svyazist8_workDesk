@@ -1,0 +1,21 @@
+$color: whitesmoke;
+$shadow1: 0 0 10px rgba(211, 211, 211, 0.5);
+$shadow2: 0 7px 5px rgba(211, 211, 211, 0.5);
+$border: 1px solid whitesmoke;
+$bColor: #222222;
+$bColorHover: #ffffff70;
+$borderR: 15px;
+
+
+.boxDark{
+    color: $color;
+    box-shadow: $shadow1;
+    border: $border;
+    background-color: $bColor;
+    border-radius: $borderR;
+    padding: 15px;
+}
+.boxDarkHover{
+    background-color: $bColorHover;
+}
+// .color

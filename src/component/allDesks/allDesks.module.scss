@@ -1,0 +1,19 @@
+@import "./../style/dark.module.scss";
+@import "./../style/light.module.scss";
+.allDesks{
+    display: flex;
+    width: 100%;
+    border-bottom: $border;
+    z-index: 0;
+    .desk{
+        position: relative;
+        z-index: 1;
+        background-color: $bColor;
+        top: 2px;
+        width: 125px;
+        padding: 15px;
+        padding-bottom: 5px;
+        border: $border;
+        border-top-right-radius: 25px;
+    }
+}

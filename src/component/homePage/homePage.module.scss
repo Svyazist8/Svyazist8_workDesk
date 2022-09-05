@@ -1,0 +1,29 @@
+@import "./../style/dark.module.scss";
+@import "./../style/light.module.scss";
+
+.desks{
+    width: 500px;
+    margin: 0 auto;
+    .desk{
+        text-align: center;
+        width: 250px;
+        margin: 10px auto;
+        padding: 10px;
+    }
+}
+.infoBtn{
+    position: fixed;
+    bottom: 15px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+// .btn{
+//     margin: 0 auto;
+//     width: 150px;
+//     text-align: center;
+//     cursor: pointer;
+//     padding: 10px;
+//     border: 1px solid whitesmoke;
+//     border-radius: 0;
+// }

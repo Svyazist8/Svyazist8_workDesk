@@ -1,0 +1,49 @@
+@import "./../style/dark.module.scss";
+@import "./../style/light.module.scss";
+.table{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 250px;
+    // z-index: -1;
+    min-height: 50px;
+    padding: 10px;
+    .left{
+        position: absolute;
+        // background-color: red;
+        z-index: 10;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 100%;
+    }
+    .right{
+        position: absolute;
+        // background-color: green;
+        z-index: 10;
+        right: 0;
+        top: 0;
+        width: 50%;
+        height: 100%;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        .name{
+            width: 70%;
+            text-align: center;
+            margin: 9px 0;
+        }
+        .more{
+            width: 30px;
+            cursor: pointer;
+        }
+        .newNote{
+            font-size: 150%;
+            cursor: pointer;
+            text-align: center;
+        }
+    }
+}

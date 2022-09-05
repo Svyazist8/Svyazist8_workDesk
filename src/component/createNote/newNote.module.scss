@@ -1,0 +1,33 @@
+@import "./../style/dark.module.scss";
+@import "./../style/light.module.scss";
+.modal{
+    position: fixed;
+    background-color: $bColorHover;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content{
+        min-width: 450px;
+        .text{
+            font-size: 130%;
+            text-align: center;
+        }
+        p{
+            width: 100%;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        textarea{
+            margin: 0 auto;
+            background-color: $bColor;
+            padding: 10px;
+            width: 95%;
+            color: $color;
+        }
+    }
+}
